@@ -28,6 +28,20 @@ candidate_options = []
 
 candidate_votes = {}
 
+# Winning Candidate and Count Tracker
+
+    # 1. declare a variable that holds an empty string value for the winning cadidate:
+
+winning_candidate = ""
+
+    # 2. declare a variable for the "winning count" equal to zero:
+
+winning_count = 0
+
+    # 3. declare a variable for the "winning_percentage" equal to zero:
+
+winning_percentage = 0
+
 
 # Open the election results and read the file
 with open(file_to_load) as election_data:
@@ -84,9 +98,32 @@ for candidate_name in candidate_votes:
 
     vote_percentage = float(votes)/float(total_votes)*100
 
-    # 4.    Print the candidate name and % of votes:
+    # 4.    Print the candidate name , vote count, and % of votes:
 
-    print(f'{candidate_name}: received {vote_percentage:.2f}% of the vote.')
+    print(f'{candidate_name}: received {votes} votes, which is {vote_percentage:.2f}% of the vote.')
+
+# 5.    Determine winning count and candidate:
+
+    # a)    Determine if the votes is greater than the winning count:
+
+    if (votes > winning_count) and (vote_percentage > winning_percentage):
+
+        #  If true, then set winning_count = votes and Winning % = vote %
+
+        winning_count = votes
+
+        winning_percentage = vote_percentage
+
+        #  And, set the winning_candidate = candidate's name
+
+        winning_candidate = candidate_name
+
+#  Print the winning candidate, vote count and percentage
+
+print(f'Winner: {winning_candidate}, received {winning_count} votes, which is {winning_percentage:.2f}% of the vote.')
+
+
+
 
 # # Print candidate list: (next bullet)
 # print(candidate_options)
