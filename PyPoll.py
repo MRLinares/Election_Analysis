@@ -20,6 +20,10 @@ election_analysis = os.path.join('Analysis', 'election_analysis.txt')
 
 total_votes = 0
 
+# declaring  a list to retrieve candidate info 
+
+candidate_options = []
+
 # Open the election results and read the file
 with open(file_to_load) as election_data:
 
@@ -31,13 +35,30 @@ with open(file_to_load) as election_data:
         headers = next(election_reader)
         # print(headers)
 
-# Print each row in the CSV file.
+# Print each row in the CSV file:
+
         for row in election_reader:
-        # 2. Add the total vote count
+
+            # 2. Add the total vote count:
 
             total_votes += 1 
+
             # print(row)
-        #     #  print(row[0]) would give just the first item
+            # #  print(row[0]) would give just the first item
+
+
+            # Print the candidate name from each row:
+
+            candidate_name = row[2]
+
+            # Add the candidate name to the candidate list:
+
+            candidate_options.append(candidate_name)
+
+# Print candidate list:
+
+print(candidate_options)
+
 
 # 3. Print the total votes.
 
