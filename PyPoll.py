@@ -15,6 +15,11 @@ file_to_load = os.path.join('Resources', 'election_results.csv')
 # file to save 
 election_analysis = os.path.join('Analysis', 'election_analysis.txt')
 
+
+# 1. initialize accumulator variable (or total vote counter)
+
+total_votes = 0
+
 # Open the election results and read the file
 with open(file_to_load) as election_data:
 
@@ -24,12 +29,19 @@ with open(file_to_load) as election_data:
     # Print the header row.
 
         headers = next(election_reader)
-        print(headers)
+        # print(headers)
 
 # Print each row in the CSV file.
-        # for row in election_reader:
-        #     print(row)
+        for row in election_reader:
+        # 2. Add the total vote count
+
+            total_votes += 1 
+            # print(row)
         #     #  print(row[0]) would give just the first item
+
+# 3. Print the total votes.
+
+print(total_votes)
 
 # To do: perform analysis.
     #  print(election_reader)
