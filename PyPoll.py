@@ -51,9 +51,10 @@ with open(file_to_load) as election_data:
 
             candidate_name = row[2]
 
-            # Add the candidate name to the candidate list:
+            # Add the unique candidate name to the candidate list:
+            if candidate_name not in candidate_options:
 
-            candidate_options.append(candidate_name)
+                candidate_options.append(candidate_name)
 
 # Print candidate list:
 
