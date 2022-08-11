@@ -24,6 +24,11 @@ total_votes = 0
 
 candidate_options = []
 
+# declare an empty dictionary in order to tie {key: value} for candidates and their respective votes
+
+candidate_votes = {}
+
+
 # Open the election results and read the file
 with open(file_to_load) as election_data:
 
@@ -51,15 +56,22 @@ with open(file_to_load) as election_data:
 
             candidate_name = row[2]
 
-            # Add the unique candidate name to the candidate list:
+            # If the candidate does not match any existing candidate...
             if candidate_name not in candidate_options:
+
+                #  1.   Then add the unique candidate name to the candidate list:
 
                 candidate_options.append(candidate_name)
 
-# Print candidate list:
+                #  2.   Begin tracking that candidate's vote count:
 
-print(candidate_options)
+                candidate_votes[candidate_name] = 0
 
+# # Print candidate list: (next bullet)
+# print(candidate_options)
+
+# Update to print candidate vote dictionary
+print(candidate_votes)
 
 # 3. Print the total votes.
 
