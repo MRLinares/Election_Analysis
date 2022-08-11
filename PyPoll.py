@@ -63,9 +63,13 @@ with open(file_to_load) as election_data:
 
                 candidate_options.append(candidate_name)
 
-                #  2.   Begin tracking that candidate's vote count:
+                #  2.   Begin tracking that candidate's vote count by initializing to 0:
 
                 candidate_votes[candidate_name] = 0
+
+                # 3.    Begin tallying votes:
+
+            candidate_votes[candidate_name] += 1
 
 # # Print candidate list: (next bullet)
 # print(candidate_options)
