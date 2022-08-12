@@ -8,9 +8,13 @@ Colorado Board of Elections employee tasked me with completing election audit of
 
 - Total number of votes cast
 - Complete list of candidates who received votes
+- Complete list of counties participating
 - Percentage of votes each candidate won
+- Percentage of voter turnout for each county
 - Total number of votes each candidate won
+- Total nuber of votes placed in each county
 - Winner of the election based on the popular vote
+- Largest county as represented by their respective vote count
 
 ## Resources:
 
