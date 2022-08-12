@@ -44,7 +44,14 @@ The results were:
   – DeGette received 73.8% of the vote with 272,892 votes\
   – Doane received 3.1% of the vote with 11, 606 votes
   
-Making Diana DeGette the landslide victor with 73.8% of the vote (272,892)
+
+Making Diana DeGette the landslide victor with 73.8% of the vote (272,892 of 369,711)
+  
+  – Jefferson county had 10.5% of the total voter turnout with 38,855 voters\
+  – Denver county had 82.8% of the total voter turnout with 306,055 voters\
+  – Arapahoe county had 6.7% of the total voter turnout with 24,801 voters
+  
+Making Denver county the largest representation out of the participating counties.
 
 ## Challenge Overview
 
