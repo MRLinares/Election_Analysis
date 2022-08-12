@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Audit
 
 ## Overview
 
@@ -23,7 +23,7 @@ Colorado Board of Elections employee tasked me with completing election audit of
 – Software: Python 3.9.12, Visual Studio Code 1.70.0
 
 
-### Analysis Results:
+## Election Audit Results:
 
 
 There were 369,711 total votes cast   
@@ -53,13 +53,14 @@ Making Diana DeGette the landslide victor with 73.8% of the vote (272,892 of 369
   
 Making Denver county the largest representation out of the participating counties.
 
-## Audit Summary
+## Election Audit Summary:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Given that the algorithm is able to process over a million data points (Ballot ID, County info, and Candidate info) in fractions of a second, I am confident this program can handle future elections within the state of Colorado and beyond.  With just a few adjustments in the code, I know that this algorithm can handle scale.  With files containing comma separated values (CSV), such as the list provided with the election data, my algorithm can grab information from any column on a spreadsheet and tally up quantity. 
 
-![Screen Shot 2022-08-11 at 11 49 06 PM](https://user-images.githubusercontent.com/108758105/184281702-9cefbbf0-4c1b-4f84-b6ee-83541f1ab9e2.png)
+![Screen Shot 2022-08-11 at 11 49 06 PM](https://user-images.githubusercontent.com/108758105/184281702-9cefbbf0-4c1b-4f84-b6ee-83541f1ab9e2.png) ![Screen Shot 2022-08-12 at 3 02 41 PM](https://user-images.githubusercontent.com/108758105/184426245-40cb8c17-301e-4842-a815-91c8e2e63106.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     The code above, for example, shows how I begin to iterate through rows of data to extract information from a csv file; from a simple digit and variable change, I can extract from an entirely new list of information.  Because the code iterates through each row with values, it can scale up with larger districts, states and even the nation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     The code above left, for example, shows how I begin to iterate through rows of data to extract information from a csv file; from a simple digit and variable change, I can extract from an entirely new list of information.  Because the code iterates through each row with values, it can scale up with larger districts, states and even the nation.  The dependency "import csv" (image above right) gives the ability to read any csv file which can be imported for the code to read, no matter how large.
 
 
 
@@ -73,7 +74,8 @@ Making Denver county the largest representation out of the participating countie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Creating empty "dictionaries", or variables that contain key-value relationships (just like standard dictionaries with words and definitions), as indicated by the empty brackets above, allows for flexibility in scaling.  If I had designed the program with tuples(lists that cannot be changed) I would limit the program to its current capacity.  Having the empty dictionary, however, allows for added future capacity if need be.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Also, this code can open a csv file, and with the commands I built in, can write the needed information to any assigned text file using commands such as the one pictured below.  During an election, votes can continue to be processed and added to the csv file and this code can update the text file everytime it you run it.  A future software update will allow this code to update the results file in real-time as votes come in, essentially allowing this program to become both a live vote counter and auditing software.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Also, this code can open a csv file, and with the commands I built in, can write the needed information to any assigned text file using commands such as the one pictured below.  During an election, votes can continue to be processed and added to the csv file and this code can update the text file everytime it you run it.  A future software update will allow this code to update the results file in real-time as votes come in, essentially allowing this program to become both a live vote counter and auditing software.
 
 ![Screen Shot 2022-08-11 at 11 59 54 PM](https://user-images.githubusercontent.com/108758105/184282748-91266d98-903a-4459-a3ab-36de0ab00625.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      I am grateful for the opportunity you have provided my business and I know this algorithm can serve your needs efficiently and accurately for the future as well.  Looking forward to continuing partnership.
