@@ -53,8 +53,13 @@ Making Diana DeGette the landslide victor with 73.8% of the vote (272,892 of 369
   
 Making Denver county the largest representation out of the participating counties.
 
-## Summary
+## Audit Summary
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Given that the algorithm is able to process over a million data points (Ballot ID, County info, and Candidate info) in fractions of a second, I am confident this program can handle future elections within the state of Colorado and beyond.  With just a few adjustments in the code, I know that this algorithm can handle scale.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     With files containing comma separated values, such as the list provided with the election data, my algorithm can grab information from any column on a spreadsheet and tally up quantity. 
+With files containing comma separated values, such as the list provided with the election data, my algorithm can grab information from any column on a spreadsheet and tally up quantity. 
+
+![Screen Shot 2022-08-11 at 11 49 06 PM](https://user-images.githubusercontent.com/108758105/184281702-9cefbbf0-4c1b-4f84-b6ee-83541f1ab9e2.png)
+
+The code above, for example, shows how I begin to iterate through rows of data to extract information from a csv file; from a simple digit and variable change, I can extract from an entirely new list of information.
+
