@@ -65,7 +65,12 @@ Making Denver county the largest representation out of the participating countie
 
 ![Screen Shot 2022-08-11 at 11 56 05 PM](https://user-images.githubusercontent.com/108758105/184282375-4ee1278f-0efb-437a-8552-0f426525c3b2.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     This code shows how a single formula can be applied to a loop so that a percentage of total votes can be attributeed to a single variable.  This code in particular calculates the percentage of votes for the county.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     This code, above, shows how a single formula can be applied to a loop so that a percentage of total votes can be attributeed to a single variable.  This code in particular calculates the percentage of votes for the county.
+
+
+![Screen Shot 2022-08-12 at 12 18 44 AM](https://user-images.githubusercontent.com/108758105/184284346-2d2375e7-8bc8-41ea-ad9d-b3283dbfd9ef.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Creating empty "dictionaries", or variables that contain key-value relationships (just like standard dictionaries with words and definitions), as indicated by the empty brackets, allows for flexibility in scaling.  If I had designed the program with tuples(lists that cannot be changed) I would limit the program to its current capacity.  Having the empty dictionary, however, allows for added future capacity if need be.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Also, this code can open a csv file, and with the commands I built in, can write the needed information to any assigned text file using commands such as the one pictured below.  During an election, votes can continue to be processed and added to the csv file and this code can update the text file everytime it you run it.  A future software update will allow this code to update the results file in real-time as votes come in, essentially allowing this program to become both a live vote counter and auditing software.
