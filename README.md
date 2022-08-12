@@ -33,6 +33,11 @@ Three candidates:
     – Diana DeGette\
     – Raymon Anthony Doane  
     
+Three counties:\
+    – Jefferson\
+    – Denver\
+    – Arapahoe
+    
 The results were:
 
   – Stockham received 23% of the vote with 85,213 votes\
