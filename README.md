@@ -68,7 +68,7 @@ Making Denver county the largest representation out of the participating countie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     This code shows how a single formula can be applied to a loop so that a percentage of total votes can be attributeed to a single variable.  This code in particular calculates the percentage of votes for the county.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Also, this code can open a csv file, and with the commands I built in, can write the needed information to any assigned text file using commands such as the one pictured below.  During an election, votes can continue to be processed and added to the csv file and this will update the text file everytime it you run it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Also, this code can open a csv file, and with the commands I built in, can write the needed information to any assigned text file using commands such as the one pictured below.  During an election, votes can continue to be processed and added to the csv file and this code can update the text file everytime it you run it.
 
 ![Screen Shot 2022-08-11 at 11 59 54 PM](https://user-images.githubusercontent.com/108758105/184282748-91266d98-903a-4459-a3ab-36de0ab00625.png)
 
