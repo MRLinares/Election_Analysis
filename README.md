@@ -22,34 +22,34 @@ Colorado Board of Elections employee tasked me with completing election audit of
 
 – Software: Python 3.9.12, Visual Studio Code 1.70.0
 
-## Results
 
-#### Analysis of the election show:
+### Analysis Results:
+
 
 There were 369,711 total votes cast   
 
 Three candidates:     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Charles Casper Stockham  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diana DeGette\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymon Anthony Doane  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Charles Casper Stockham  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Diana DeGette\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Raymon Anthony Doane  
     
 Three counties:\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jefferson\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Denver\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Arapahoe
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Jefferson\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Denver\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Arapahoe
     
 The results were:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stockham received 23% of the vote with 85,213 votes\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DeGette received 73.8% of the vote with 272,892 votes\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Doane received 3.1% of the vote with 11, 606 votes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Stockham received 23% of the vote with 85,213 votes\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – DeGette received 73.8% of the vote with 272,892 votes\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Doane received 3.1% of the vote with 11, 606 votes
   
 
 Making Diana DeGette the landslide victor with 73.8% of the vote (272,892 of 369,711)
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jefferson county had 10.5% of the total voter turnout with 38,855 voters\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Denver county had 82.8% of the total voter turnout with 306,055 voters\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Arapahoe county had 6.7% of the total voter turnout with 24,801 voters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Jefferson county had 10.5% of the total voter turnout with 38,855 voters\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Denver county had 82.8% of the total voter turnout with 306,055 voters\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Arapahoe county had 6.7% of the total voter turnout with 24,801 voters
   
 Making Denver county the largest representation out of the participating counties.
 
