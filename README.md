@@ -24,9 +24,9 @@ Colorado Board of Elections employee tasked me with completing election audit of
 
 ## Results
 
-Analysis of the election show:
+#### Analysis of the election show:
 
-– There were 369,711 total votes cast   
+There were 369,711 total votes cast   
 
 Three candidates:     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Charles Casper Stockham  
@@ -55,6 +55,6 @@ Making Denver county the largest representation out of the participating countie
 
 ## Summary
 
-Given that the algorithm is able to process over a million data points (Ballot ID, County info, and Candidate info) in fractions of a second, I am confident this program can handle future elections within the state of Colorado and beyond.  With just a few adjustments in the code, I know that this algorithm can handle scale.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Given that the algorithm is able to process over a million data points (Ballot ID, County info, and Candidate info) in fractions of a second, I am confident this program can handle future elections within the state of Colorado and beyond.  With just a few adjustments in the code, I know that this algorithm can handle scale.  
 
-With files containing comma separated values, such as the list provided with the election data, my algorithm can grab information from any column on a spreadsheet and tally up quantity. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     With files containing comma separated values, such as the list provided with the election data, my algorithm can grab information from any column on a spreadsheet and tally up quantity. 
