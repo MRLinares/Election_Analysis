@@ -21,16 +21,21 @@ Colorado Board of Elections employee tasked me with completing election audit of
 ## Summary
 
 Analysis of the election show:
-– There were 369,711 total votes cast\
-– Three candidates:\
-– Charles Casper Stockham  
-  – Diana DeGette\
-  – Raymon Anthony Doane  
-– The results were:\
+
+– There were 369,711 total votes cast   
+
+Three candidates:     
+    – Charles Casper Stockham  
+    – Diana DeGette\
+    – Raymon Anthony Doane  
+    
+The results were:
+
   – Stockham received 23% of the vote with 85,213 votes\
   – DeGette received 73.8% of the vote with 272,892 votes\
-  – Doane received 3.1% of the vote with 11, 606 votes\
-– Making Diana DeGette the landslide victor with 73.8% of the vote (272,892)
+  – Doane received 3.1% of the vote with 11, 606 votes
+  
+Making Diana DeGette the landslide victor with 73.8% of the vote (272,892)
 
 ## Challenge Overview
 
